@@ -7,7 +7,11 @@
     },
     "url": "https://ghproxy.com/https://github.com/qier222/YesPlayMusic/releases/download/v0.4.2/YesPlayMusic-0.4.2.exe",
     "hash": "cf90a2a556f3a20cbb8bea04fe4c7151336bca02c2ec6b3491b986ee3bcec94b",
-    "post_install": "$exe = ls *.exe | Select-Object -First 1; Rename-Item -NewName YesPlayMusic.exe -Path $exe",
+    "installer": {
+        "script": [
+            "Rename-Item -NewName (Join-Path $dir YesPlayMusic.exe) -Path (Join-Path $dir YesPlayMusic-$version.exe)"
+        ]
+    },
     "shortcuts": [["YesPlayMusic.exe", "YesPlayMusic"]],
     "uninstaller": {
         "script": "Remove-Item -Path $env:APPDATA\\YesPlayMusic -Recurse"
