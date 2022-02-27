@@ -9,7 +9,7 @@
             "hash": "a40704fa8a9f4d0092a900e2b5c53276a1ae325dd0936f47c83a85fb96b15fbe"
         }
     },
-    "bin": "fvm.bat",
+    "bin": "fvm/fvm.bat",
     "checkver": {
         "github": "https://github.com/leoafarias/fvm",
         "regex": "releases/tag/([\\d\\.]+)"
