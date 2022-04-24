@@ -1,0 +1,24 @@
+{
+    "version": "0.3.0",
+    "description": "🕳 bore is a simple CLI tool for making tunnels to localhost",
+    "homepage": "https://github.com/ekzhang/bore",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://ghproxy.com/https://github.com/ekzhang/bore/releases/download/v0.3.0/bore-v0.3.0-x86_64-pc-windows-msvc.zip",
+            "hash": ""
+        }
+    },
+    "bin": "fvm/fvm.bat",
+    "checkver": {
+        "github": "https://github.com/leoafarias/fvm",
+        "regex": "releases/tag/([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ghproxy.com/https://github.com/ekzhang/bore/releases/download/$version/bore-$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
