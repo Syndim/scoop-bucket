@@ -9,10 +9,10 @@
             "hash": ""
         }
     },
-    "bin": "fvm/fvm.bat",
+    "bin": "bore.exe",
     "checkver": {
-        "github": "https://github.com/leoafarias/fvm",
-        "regex": "releases/tag/([\\d\\.]+)"
+        "github": "https://github.com/ekzhang/bore",
+        "regex": "releases/tag/(v[\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
