@@ -1,12 +1,12 @@
 {
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "高颜值的第三方网易云播放器",
     "homepage": "https://github.com/qier222/YesPlayMusic",
     "license": {
         "identifier": "MIT"
     },
-    "url": "https://ghproxy.com/https://github.com/qier222/YesPlayMusic/releases/download/v0.4.5/YesPlayMusic-0.4.5.exe",
-    "hash": "2f641b219b4f09b04e3bb3e9410935d39bddc94389b2a7afcf22138db9b8bef8",
+    "url": "https://ghproxy.com/https://github.com/qier222/YesPlayMusic/releases/download/v0.4.6/YesPlayMusic-0.4.6.exe",
+    "hash": "689a59e7625bfbfdf210a447dd1fcfe32141a03481a45b44013fb83f68c7a30f",
     "installer": {
         "script": "Rename-Item -NewName (Join-Path $dir YesPlayMusic.exe) -Path (Join-Path $dir YesPlayMusic-$version.exe)"
     },
