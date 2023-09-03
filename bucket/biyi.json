@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://biyi-api.thecode.me/versions/latest",
-        "regex": "version\":\"v(?<version>[\\d.]+)\".*buildNumber\":\"(?<build>v[\\d]+)\""
+        "regex": "version\":\"v(?<version>[\\d.]+)\".*buildNumber\":\"(?<build>[\\d]+)\""
     },
     "autoupdate": {
         "url": "https://github.com/biyidev/biyi/releases/download/v$version/biyi-$version+$build-windows.zip"
