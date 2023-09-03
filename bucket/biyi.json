@@ -5,7 +5,6 @@
     "license": "",
     "url": "https://ghproxy.com/https://github.com/biyidev/biyi/releases/download/v0.5.0/biyi-0.5.0+18-windows.zip",
     "hash": "3cb69cb00ba268aebba776039fb9fdd48558f5b91abcdc2d9bfd0ea3d919dddf",
-    "extract_dir": "biyi",
     "shortcuts": [
         [
             "biyi.exe",
