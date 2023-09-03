@@ -1,10 +1,10 @@
 {
     "homepage": "https://biyidev.com/",
     "description": "Biyi (比译) is a convenient translation and dictionary app written in Flutter. ",
-    "version": "0.5.0",
+    "version": "v0.3.6",
     "license": "",
-    "url": "https://github.com/biyidev/biyi/releases/download/v0.5.0/biyi-0.5.0+18-windows.zip",
-    "hash": "",
+    "url": "https://github.com/biyidev/biyi/releases/download/v0.3.6/biyi-0.3.6+9-windows.zip",
+    "hash": "f18b0aa4c252f15c05cbf6dbb54707b149ffb7a06c960d538d89112d94932e4c",
     "extract_dir": "biyi",
     "shortcuts": [
         [
@@ -17,6 +17,6 @@
         "regex": "version\":\"v(?<version>[\\d.]+)\".*buildNumber\":(?<build>[\\d]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/biyidev/biyi/releases/download/v$version/biyi-$version+$matchBuild-windows.zip"
+        "url": "https://ghproxy.com/https://github.com/biyidev/biyi/releases/download/v$version/biyi-$version+$matchBuild-windows.zip"
     }
 }
