@@ -19,12 +19,15 @@
             "Rubick"
         ]
     ],
-    "innosetup": true,
     "checkver": {
         "github": "https://github.com/rubickCenter/rubick",
         "regex": "releases/tag/v([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z"
+        "architecture": {
+            "64bit": {
+                "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z"
+            }
+        }
     }
 }
