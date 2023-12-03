@@ -14,9 +14,9 @@
     "innosetup": true,
     "checkver": {
         "github": "https://github.com/rubickCenter/rubick",
-        "regex": "releases/tag/(v[\\d\\.]+)"
+        "regex": "releases/tag/v([\\d\\.]+)"
     },
     "autoupdate": {
-        "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/$version/rubick-Setup-$version-x64.exe"
+        "url": "https://mirror.ghproxy.com/https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe"
     }
 }
