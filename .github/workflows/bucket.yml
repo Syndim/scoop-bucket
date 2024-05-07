@@ -1,20 +1,17 @@
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 name: Update bucket
 jobs:
   update:
-    name: ♻ Update manifests
-    runs-on: ubuntu-latest
+    name: Update
+    runs-on: windows-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: foosel/scoop-checkver-action@main
-        with:
-          bucket: bucket
-      - uses: EndBug/add-and-commit@v7
-        with:
-          message: "Updated manifests..."
-          author_name: 'github-actions[bot]'
-          author_email: 'github-actions[bot]@users.noreply.github.com'
+      - uses: actions/checkout@main
+      - name: Update
+        uses: ScoopInstaller/GithubActions@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_UPDATED: "1"
