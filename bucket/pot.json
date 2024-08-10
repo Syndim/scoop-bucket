@@ -1,12 +1,12 @@
 {
     "homepage": "https://pot-app.com",
     "description": "🌈一个跨平台的划词翻译和OCR软件",
-    "version": "3.0.0",
+    "version": "3.0.5",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
             "url": "https://mirror.ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/3.0.5/pot_3.0.5_x64-setup.exe#/dl.7z",
-            "hash": "0d6876e8129d5e7eeffe4c3d1cc4e290d820e0bdab0afd80f8d9c3cf2f3a9396",
+            "hash": "41bf20d071b286f635226796c26e60641bcebb87e92bf925f901ee1df2ffb6f6",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
