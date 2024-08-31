@@ -9,7 +9,7 @@
             "hash": "496e651609b1c9c2c9bd0a5fe2a7645dd92233d9cee8a20a323db9003b349eef"
         }
     },
-    "bin": "bin/bore.exe",
+    "bin": "bin/mise.exe",
     "checkver": {
         "github": "https://github.com/jdx/mise",
         "regex": "releases/tag/(v[\\d\\.]+)"
