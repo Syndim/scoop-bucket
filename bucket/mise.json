@@ -1,12 +1,12 @@
 {
-    "version": " v2024.8.14",
+    "version": "v2024.8.15",
     "description": "dev tools, env vars, task runner",
     "homepage": "https://github.com/jdx/mise",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.ghproxy.com/https://github.com/jdx/mise/releases/download/v2024.8.14/mise-v2024.8.14-win-x64.zip",
-            "hash": "a072e180039f78d804e1743ca56a25335593862701bd606f2a317828c28ba337"
+            "url": "https://mirror.ghproxy.com/https://github.com/jdx/mise/releases/download/v2024.8.15/mise-v2024.8.15-win-x64.zip",
+            "hash": "496e651609b1c9c2c9bd0a5fe2a7645dd92233d9cee8a20a323db9003b349eef"
         }
     },
     "bin": "bin/bore.exe",
