@@ -9,7 +9,11 @@
             "hash": "e1c7e22c25514830377fb2c7e836d27de7d6ca5e8c2d3574588ea8fa7e347971"
         }
     },
-    "bin": "bore.exe",
+    "bin": [
+        "probe-rs.exe",
+        "cargo-flash.exe",
+        "cargo-embed.exe"
+    ],
     "checkver": {
         "github": "https://github.com/probe-rs/probe-rs",
         "regex": "releases/tag/(v[\\d\\.]+)"
