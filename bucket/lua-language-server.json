@@ -1,12 +1,12 @@
 {
-    "version": "3.13.8",
+    "version": "3.13.9",
     "description": "Lua Language Server coded by Lua",
     "homepage": "https://github.com/sumneko/lua-language-server",
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.cn/https://github.com/sumneko/lua-language-server/releases/download/3.13.8/lua-language-server-3.13.8-win32-x64.zip",
-            "hash": "c323ad1af771895108ed94eefb636f84a049d44b760dd23b9d488d78755ae055"
+            "url": "https://ghproxy.cn/https://github.com/sumneko/lua-language-server/releases/download/3.13.9/lua-language-server-3.13.9-win32-x64.zip",
+            "hash": "27e1a8ee603f8ca0f7db2b585aee2a7720616b98a9107bd2631e9fc685ba3553"
         }
     },
     "bin": "bin/lua-language-server.exe",
