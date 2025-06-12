@@ -1,0 +1,28 @@
+{
+    "version": "v0.1.0",
+    "description": "Simple Aria2 Wrapper",
+    "homepage": "https://github.com/Syndim/aria2-wrapper",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://ghproxy.cn/https://github.com/Syndim/aria2-wrapper/releases/download/v0.1.0/aria2-wrapper-windows-amd64.zip",
+            "hash": "1de4d30b0ec415417dd37f1b8322ffd277dbea440ac8d5ea304b7af75d669531"
+        }
+    },
+    "pre_install": [
+        "Write-Host 'Renaming aria2-wrapper.exe to aria2c.exe'",
+        "Rename-Item \"$dir\\aria2-wrapper.exe\" \"aria2c.exe\" -ErrorAction SilentlyContinue"
+    ],
+    "bin": "aria2c.exe",
+    "checkver": {
+        "github": "https://github.com/Syndim/aria2-wrapper",
+        "regex": "releases/tag/(v[\\d\\.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ghproxy.cn/https://github.com/Syndim/aria2-wrapper/releases/download/$version/aria2-wrapper-windows-amd64.zip"
+            }
+        }
+    }
+}
