@@ -1,13 +1,13 @@
 {
-    "version": "v0.1.2",
+    "version": "v0.2.1",
     "description": "Simple Downloader Wrapper",
     "homepage": "https://github.com/Syndim/downloader-wrapper",
     "license": "MIT",
     "depends": "aria2-orig",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.cn/https://github.com/Syndim/downloader-wrapper/releases/download/v0.1.2/downloader-wrapper-windows-amd64.zip",
-            "hash": "2ab88c28d85e6d907f72245c9ce6d1cd6e52c0e77f3b93040ee473ca4c1c19bb"
+            "url": "https://ghproxy.cn/https://github.com/Syndim/downloader-wrapper/releases/download/v0.2.1/downloader-wrapper-windows-amd64.zip",
+            "hash": "24a938f3333a64443f7aede8c2e923dd8e31174f875867896421015bef332c53"
         }
     },
     "pre_install": [
