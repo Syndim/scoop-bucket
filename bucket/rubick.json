@@ -1,12 +1,12 @@
 {
     "homepage": "https://rubick.vip/",
     "description": "🔧 Electron based open source toolbox, free integration of rich plug-ins. 基于 electron 的开源工具箱，自由集成丰富插件。",
-    "version": "4.3.2",
+    "version": "4.3.4",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.cn/https://github.com/rubickCenter/rubick/releases/download/v4.3.2/rubick-Setup-4.3.2-x64.exe#/dl.7z",
-            "hash": "e69e7c1977bfcc2af48a5326510932ad08b8f5d8fc11c9a440751a0068ce130a",
+            "url": "https://ghproxy.cn/https://github.com/rubickCenter/rubick/releases/download/v4.3.4/rubick-Setup-4.3.4-x64.exe#/dl.7z",
+            "hash": "5de2003e55e18c11cac74c66c3ef1f1901ae8b3a54439c6353535533772952b3",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
