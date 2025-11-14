@@ -5,7 +5,7 @@
     "license": "",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.cn/https://github.com/leoafarias/fvm/releases/download/3.2.1/fvm-3.2.1-windows-x64.zip",
+            "url": "https://gh.llkk.cc/https://github.com/leoafarias/fvm/releases/download/3.2.1/fvm-3.2.1-windows-x64.zip",
             "hash": "84c0b43cbe0daf72b8d230f08a7cb969d3d755fb8e83f2a1c0860e122306ebe5"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://ghproxy.cn/https://github.com/leoafarias/fvm/releases/download/$version/fvm-$version-windows-x64.zip"
+                "url": "https://gh.llkk.cc/https://github.com/leoafarias/fvm/releases/download/$version/fvm-$version-windows-x64.zip"
             }
         }
     }
